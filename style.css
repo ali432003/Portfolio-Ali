@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #2e6577;
+}
+
+span {
+    color: #6699CC;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'League Spartan', sans-serif;
+    color: #1E1D23;
+    line-height: 3rem;
+}
+h3{
+    color: #2e6577;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 0.5rem; 
+}
+
+h4 {
+    color: #1E1D23;
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    color: #c6bdf0;    
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 18px;
+    color: #2e6577;   
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: #2e6577;
+    border: none;
+    color: #fff;  
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    -webkit-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    background-color: #075392;
+    transform: scale(1.2);
+}
+
+
+/*navbar*/
+.nav-wrap{
+    position:fixed;
+    width:100%;
+    left:0;
+    top: 0;
+    z-index:1000;
+    -webkit-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out;
+}
+
+.logo{
+    width: 150px;
+    padding-top: 0;
+    margin: -2.8rem;
+    margin-left: 1rem;
+    overflow: hidden;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1E1D23;
+    letter-spacing:1px;
+    transition: .4s ease;
+}
+
+.nav-link:hover{
+    font-weight: 800;
+    text-shadow: 2px 4px 4.5px #757575;
+}
+
+
+.img-div{
+    margin-top: 6.35rem;
+}
+
+
+.widget {
+    display: inline-block;
+    /* overflow: hidden; */
+    font-size: 1rem;
+    line-height: 1px;
+    /* white-space: nowrap; */
+}
+.widget-lg .btn, 
+.widget-lg .social-count {
+    height: 16px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 6px;
+}
+.msif-3{
+    margin-left: -8rem !important;
+    margin-top: 0.25rem !important;
+}
+
+.github{
+    margin-bottom: 20px !important;
+}
+
+.mtp-5{
+    margin-top: 130px !important;
+}
+
+.p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.bt{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem !important;
+}
+
+.rounded{
+    transition: all .4s ease;
+}
+.rounded:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px){
+    .ms-md-5 {
+        margin-left: 3rem!important;
+        margin-top: 2rem !important;
+    }
+    .img-div {
+        margin-top: 16.85rem !important;
+    }
+    .mtf-5 {
+        margin-top: 12rem !important;
+        margin-bottom: 4rem !important;
+    }
+    .ps-md-5 {
+        padding-left: 1rem!important;
+    }
+    .ms-md-5 {
+        padding-bottom: 4rem !important;
+        padding-left: 3rem!important;
+    }
+    .pk{
+        padding-bottom: 4rem;
+    }
+    .pd-html{
+        transform: translateY(-31px);
+    }
+}
+
+@media(max-width:400px){
+    .mob{
+        margin-top: 4rem !important;
+        margin-left: 1rem !important;
+    }
+    .connect{
+        font-size: 45px;
+    }
+    .img-div {
+        margin-top: 6.85rem !important;
+    }
+    
+    .ps-md-5 {
+        padding-left: 0rem !important;
+    }
+    .mtf-5{
+        margin-top: 7rem !important;
+        margin-bottom: 4rem !important;
+    }
+    .ps-5 {
+        padding-left: 3rem!important;
+    }
+    .b{
+        margin-left: 0.5rem !important;
+    }
+    .pd-html{
+        transform: translateX(-20px);
+    }
+}
