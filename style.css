@@ -223,4 +223,8 @@ p {
     .pd-html{
         transform: translateX(-20px);
     }
+    .new{
+        margin-left: 11px;
+        width: 327px;
+    }
 }
